@@ -1,0 +1,18 @@
+.header {
+    position: relative;
+}
+
+.header__title {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: calc(3vw + 1.5em);
+    font-family: 'Lobster', cursive;
+}
+
+.header__logo {
+    width: 100%;
+    margin: 0;
+}
