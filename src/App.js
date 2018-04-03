@@ -3,6 +3,7 @@ import { Container } from "bloomer";
 import { AuthContext } from "./AuthContext";
 import { firebase } from './firebase';
 import Header from "./component/Header";
+import WeightUpdater from "./component/WeightUpdater";
 import Account from "./component/Account";
 import "./App.css";
 
@@ -27,6 +28,7 @@ class App extends Component {
       <AuthContext.Provider value={this.state.authUser}>
         <Container>
           <Header />
+          <WeightUpdater />
           <Account />
         </Container>
       </AuthContext.Provider>

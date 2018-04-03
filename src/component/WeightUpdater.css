@@ -1,0 +1,18 @@
+.weightupdater__control,
+.weightupdater__action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weightupdater__control button {
+  font-size: 1.5em;
+}
+
+.weightupdater__control .box {
+  margin-bottom: 0;
+}
+
+.weightupdater__action {
+  margin-top: 2em;
+}

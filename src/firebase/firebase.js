@@ -1,4 +1,5 @@
 import * as firebase from "firebase";
+require("firebase/firestore");
 
 const config = {
   apiKey: "AIzaSyC9GPnPVP6RCMse2DTAzTtRLi7lbKHDMTs",
@@ -14,5 +15,6 @@ if (!firebase.apps.length) {
 }
 
 const auth = firebase.auth();
+const firestore = firebase.firestore();
 
-export { auth };
+export { auth, firestore };
